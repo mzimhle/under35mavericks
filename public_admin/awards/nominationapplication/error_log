@@ -1,0 +1,8 @@
+[01-Mar-2015 19:12:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'applicationtype' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/application.php(58): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/nominationapplication/default.php(48): class_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

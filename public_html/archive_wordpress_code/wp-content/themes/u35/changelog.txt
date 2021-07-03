@@ -1,0 +1,7 @@
+  Theme : Typegrid
+Version : 1.0
+ Author : WPBandit - http://wpbandit.com
+
+.: March 11 2013 (v1.0) :.
+===========================================================
+- Theme released

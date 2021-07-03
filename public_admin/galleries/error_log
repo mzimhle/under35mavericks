@@ -1,0 +1,21 @@
+[15-Feb-2014 11:07:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Mar-2014 11:32:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[08-Mar-2015 00:30:54 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "awards/galleries/default.tpl" in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:21 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189

@@ -1,0 +1,17 @@
+[02-May-2015 14:25:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/undercwp/public_html/library/classes/class/applicationanswer.php(106): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/undercwp/public_html/library/classes/class/applicationanswer.php(125): class_applicationanswer->answersBySubSection('1424901282742', NULL)
+#5 /home/undercwp/public_admin/cron/entries.php(42): class_applicationanswer->getAnswers('2015', NULL)
+#6 {main} in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[02-May-2015 18:34:51 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in /home/undercwp/public_html/templates/application_pdf.html line 135]: syntax error: mismatched tag {/foreach}. (Smarty_Compiler.class.php, line 2303) in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[02-May-2015 21:06:56 Africa/Johannesburg] PHP Warning:  Missing argument 1 for PdfCrowd::__construct(), called in /home/undercwp/public_admin/cron/entries.php on line 22 and defined in /home/undercwp/public_html/library/classes/pdfcrowd/pdfcrowd.php on line 57
+[02-May-2015 21:06:56 Africa/Johannesburg] PHP Warning:  Missing argument 2 for PdfCrowd::__construct(), called in /home/undercwp/public_admin/cron/entries.php on line 22 and defined in /home/undercwp/public_html/library/classes/pdfcrowd/pdfcrowd.php on line 57
+[03-May-2015 11:23:42 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_STRING in /home/undercwp/public_html/library/classes/class/_comm.php on line 220
+[03-May-2015 11:24:09 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in /home/undercwp/public_html/templates/standard.html line 7]: syntax error: unrecognized tag: padding:0; (Smarty_Compiler.class.php, line 446) in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[11-May-2015 12:03:31 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_EXIT, expecting ',' or ';' in /home/undercwp/public_admin/cron/entries.php on line 87
+[11-May-2015 20:22:26 Africa/Johannesburg] PHP Warning:  file_get_contents(/home/undercwp/public_html/media/pdf/881836127115718/881836127115718.pdf) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /home/undercwp/public_html/library/classes/class/_comm.php on line 202
+[12-May-2015 19:32:56 Africa/Johannesburg] PHP Fatal error:  Class 'class_comm' not found in /home/undercwp/public_html/library/classes/class/application.php on line 14

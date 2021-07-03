@@ -1,0 +1,2 @@
+[31-Jan-2015 08:22:56 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/years/view/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095
+[31-Jan-2015 08:29:08 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/resources/years/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095

@@ -1,0 +1,9 @@
+/*
+Style: Boxed Header & Footer
+*/
+
+#header { background: #f9f9f9; padding-bottom: 1px; }
+.body-wrapper { max-width: 1122px; margin: 0 auto; }
+#page { padding-bottom: 0; }
+
+.ads-footer { background: #1c1c1c; border-top: 0; border-bottom: 1px solid #262626; }

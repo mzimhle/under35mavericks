@@ -1,0 +1,13 @@
+/*
+Style: Rounded
+*/
+
+img,
+.flexslider,
+.video-container,
+.featured .entry-title { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; }
+.flexslider { overflow: hidden; }
+
+#nav-subheader.nav-container,
+#page-inner,
+.main { -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }

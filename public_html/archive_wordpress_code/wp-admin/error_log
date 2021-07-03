@@ -1,0 +1,163 @@
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'access' for key 'code' for query INSERT INTO `mav_csp_modules` ( id, code, active, type_id, params, has_tab, label, description, ex_plug_dir) 
+		  				VALUES (NULL, 'access', 1, 1, '', 0, 'Access', 'Access', NULL); made by activate_plugin, include_once('/plugins/coming-soon-maintenance-mode-ready/csp.php'), installerCsp::update, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_004, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry '1' for key 'PRIMARY' for query INSERT INTO `mav_csp_htmltype` VALUES
+			(1, 'text', 'Text'),
+			(2, 'password', 'Password'),
+			(3, 'hidden', 'Hidden'),
+			(4, 'checkbox', 'Checkbox'),
+			(5, 'checkboxlist', 'Checkboxes'),
+			(6, 'datepicker', 'Date Picker'),
+			(7, 'submit', 'Button'),
+			(8, 'img', 'Image'),
+			(9, 'selectbox', 'Drop Down'),
+			(10, 'radiobuttons', 'Radio Buttons'),
+			(11, 'countryList', 'Countries List'),
+			(12, 'selectlist', 'List'),
+			(13, 'countryListMultiple', 'Country List with posibility to select multiple countries'),
+			(14, 'block', 'Will show only value as text'),
+			(15, 'statesList', 'States List'),
+			(16, 'textFieldsDynamicTable', 'Dynamic table - multiple text options set'),
+			(17, 'textarea', 'Textarea'),
+			(18, 'checkboxHiddenVal', 'Checkbox with Hidden field') made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'adminmenu' for key 'code' for query INSERT INTO `mav_csp_modules` (id, code, active, type_id, params, has_tab, label, description) VALUES
+		  (NULL, 'adminmenu',1,1,'',0,'Admin Menu',''),
+		  (NULL, 'options',1,1,'',1,'Options',''),
+		  (NULL, 'user',1,1,'',1,'Users',''),
+		  (NULL, 'pages',1,1,'[]',0,'Pages',''),
+		  (NULL, 'templates',1,1,'',1,'Templates for Plugin',''),
+		  (NULL, 'messenger', 1, 1, '', 1, 'Notifications', 'Module provides the ability to create templates for user notifications and for mass mailing.'),
+		  (NULL, 'shortcodes', 1, 6, '', 0, 'Shortcodes', 'Shortcodes data'),
+		  (NULL, 'twitter_widget', 1, 4, '', 0, 'Twitter Widget', 'Twitter Widget'),
+		  (NULL, 'log', 1, 1, '', 0, 'Log', 'Internal system module to log some actions on server'),
+		  (NULL, 'coming_soon', 1, 1, '', 0, 'Coming soon', 'Coming soon'),
+		  (NULL, 'csp_tpl_standard', 1, 7, '', 0, 'Standard template', 'Standard template'),
+		  (NULL, 'subscribe', 1, 1, '', 0, 'Subscribe', 'Subscribe'),
+		  (NULL, 'social_icons', 1, 1, '', 0, 'Social Icons', 'Social Icons'),
+		  (NULL, 'access', 1, 1, '', 0, 'Access', 'Access'); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry '1' for key 'PRIMARY' for query INSERT INTO `mav_csp_modules_type` VALUES
+		  (1,'system'),
+		  (2,'payment'),
+		  (3,'shipping'),
+		  (4,'widget'),
+		  (5,'product_extra'),
+		  (6,'addons'),
+		  (7,'template') made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'mode' for key 'code' for query INSERT INTO `mav_csp_options` (`id`,`code`,`value`,`label`,`description`,`htmltype_id`,`params`,`cat_id`,`sort_order`) VALUES
+			(NULL,'mode','disable','Plugin Mode','Mode for Coming Soon Plugin',9,'a:1:{s:7:"options";a:4:{s:7:"disable";s:7:"Disable";s:11:"coming_soon";s:16:"Coming Soon Mode";s:10:"maint_mode";s:46:"Maintenance Mode-Under Construction (HTTP 503)";s:8:"redirect";s:12:"Redirect 301";}}',1,0),
+			(NULL,'template','csp_tpl_standard','Template','Your page Template',14,'',1,0),
+			(NULL,'redirect','','Redirect URL','Redirect URL',1,'',1,0),
+			(NULL,'sub_notif_end_maint','0','Notify Subscribers','Notify Subscribers that your site go live',4,'',1,0),
+			
+			(NULL,'bg_type','color','Bg Type','Bg Type',10,'',2,0),
+			(NULL,'bg_color','#ffffff','Bg Color','Bg Color',1,'',2,0),
+			(NULL,'bg_image','','Bg Image','Bg Image',1,'',2,0),
+			(NULL,'bg_img_show_type','center','Bg Image show type','Bg Image show type',10,'',2,0),
+			(NULL,'logo_image','','Logo image','Logo image',1,'',2,0),
+			(NULL,'msg_title','Website is Under Construction','Message Title','Message Title',1,'',2,0),
+			(NULL,'msg_title_color','#000000','Message Title Color','Message Title Color',1,'',2,0),
+			(NULL,'msg_title_font','','Message Title Font','Message Title Font',1,'',2,0),
+			(NULL,'msg_text','We apologize, but at this time our site does not work. But we promise you, very soon we will resume work. 
+We just want to improve our site for your comfort.Be among the first to see our new website! Just send your email using the form below and we will inform you.','Message Text','Message Text',1,'',2,0),
+			(NULL,'msg_text_color','#000000','Message Text Color','Message Text Color',1,'',2,0),
+			(NULL,'msg_text_font','','Message Text Font','Message Text Font',1,'',2,0),
+			
+			(NULL,'sub_enable','1','Enable Subscribe','Enable Subscribe',1,'',3,0),
+			(NULL,'sub_admin_email','','New Subscribe notification email','New Subscribe notification email',1,'',3,0),
+			
+			(NULL,'soc_facebook_enable_share','','Facebook enable share','Facebook enable share',18,'',4,0),
+			(NULL,'soc_facebook_enable_like','','Facebook enable like','Facebook enable like',18,'',4,0),
+			(NULL,'soc_facebook_enable_send','1','Facebook enable send','Facebook enable send',18,'',4,0),
+			(NULL,'soc_facebook_like_layout','standard','Facebook like layout','Facebook like layout',9,'',4,0),
+			(NULL,'soc_facebook_like_width','450','Facebook like width','Facebook like width',1,'',4,0),
+			(NULL,'soc_facebook_like_faces','1','Facebook like faces','Facebook like faces',18,'',4,0),
+			(NULL,'soc_facebook_like_font','verdana','Facebook like font','Facebook like font',9,'',4,0),
+			(NULL,'soc_facebook_like_color_scheme','light','Facebook like color','Facebook like color',9,'',4,0),
+			(NULL,'soc_facebook_like_verb','like','Facebook like verb','Facebook like verb',9,'',4,0),
+			(NULL,'soc_facebook_share_layout','box_count','Facebook share layout','Facebook share layout',9,'',4,0),
+			(NULL,'soc_facebook_enable_follow','','Facebook follow enable','Facebook follow enable',18,'',4,0),
+			(NULL,'soc_facebook_follow_profile','','Facebook follow profile','Facebook follow profile',1,'',4,0),
+			(NULL,'soc_facebook_follow_layout','standard','Facebook follow layout','Facebook follow layout',9,'',4,0),
+			(NULL,'soc_facebook_follow_faces','1','Facebook follow faces','Facebook follow faces',18,'',4,0),
+			(NULL,'soc_facebook_follow_color_scheme','light','Facebook follow color scheme','Facebook follow color scheme',9,'',4,0),
+			(NULL,'soc_facebook_follow_font','verdana','Facebook follow font','Facebook follow font',9,'',4,0),
+			(NULL,'soc_facebook_follow_width','450','Facebook follow width','Facebook follow width',1,'',4,0),
+			(NULL,'soc_facebook_enable_link','1','Facebook link enable','Facebook link enable',18,'',4,0),
+			(NULL,'soc_facebook_link_account','','Facebook link enable','Facebook link enable',18,'',4,0),
+			
+			(NULL,'soc_tw_enable_tweet','','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_enable_follow','','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_tweet_count','none','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_tweet_size','medium','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_follow_account','','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_follow_count','1','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_follow_size','medium','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_follow_show_name','','Twitter','Twitter',1,'',18,0),
+			(NULL,'soc_tw_enable_link','1','Facebook link enable','Facebook link enable',18,'',4,0),
+			(NULL,'soc_tw_link_account','','Facebook link enable','Facebook link enable',18,'',4,0),
+			
+			(NULL,'soc_gp_enable_badge','','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_enable_like','','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_badge_account','','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_badge_width','300','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_badge_color_scheme','light','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_like_size','medium','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_like_annotation','inline','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_like_width','200','Google+','Google+',1,'',18,0),
+			(NULL,'soc_gp_enable_link','1','Facebook link enable','Facebook link enable',18,'',4,0),
+			(NULL,'soc_gp_link_account','','Facebook link enable','Facebook link enable',18,'',4,0); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry '1' for key 'PRIMARY' for query INSERT INTO `mav_csp_options_categories` VALUES
+			(1, 'General'),
+			(2, 'Template'),
+			(3, 'Subscribe'),
+			(4, 'Social'); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'sub_confirm' for key 'name' for query INSERT INTO `mav_csp_email_templates` (`id`, `label`, `subject`, `body`, `variables`, `active`, `name`, `module`) VALUES 
+			(NULL, 'Subscribe Confirm', 'Subscribe Confirmation', 'Hello!
+Thank you for subscribing for :site_name!
+To complete your subscription please follow the link bellow:
+<a href=":link">:link</a>
+Regards,
+:site_name team.', '["site_name","link"]', 1, 'sub_confirm', 'subscribe'),
+			(NULL, 'Subscribe Admin Notify', 'New subscriber', 'Hello!
+New user activated subscription on your site :site_name for email :email.', '["site_name","email"]', 1, 'sub_admin_notify', 'subscribe'),
+			(NULL, 'Subscribe Site Opened', 'Site :site_name Opened!', 'Hello!
+Please be advised that site :site_name are opened from now!
+You can visit site following this link <a href=":site_link">:site_link</a>.
+Regards,
+:site_name team.', '["site_name","site_link"]', 1, 'sub_site_opened', 'subscribe'),
+			(NULL, 'Subscribe New Entry', ':site_name - New Entry!', 'Hello!
+New entry was published on :site_name.
+Visit it by following next link:
+<a href=":post_link">:post_title</a>
+Regards,
+:site_name team.', '["site_name","post_link","post_title"]', 1, 'sub_new_post', 'subscribe'); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'access' for key 'code' for query INSERT INTO `mav_csp_modules` ( id, code, active, type_id, params, has_tab, label, description, ex_plug_dir) 
+		  				VALUES (NULL, 'access', 1, 1, '', 0, 'Access', 'Access', NULL); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_004, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry '1' for key 'PRIMARY' for query INSERT INTO `mav_csp_access` (id, access, type_access) VALUES (1, '10', 3); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_004, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'sub_enter_email_msg' for key 'code' for query INSERT INTO `mav_csp_options` (`id`,`code`,`value`,`label`,`description`,`htmltype_id`,`params`,`cat_id`,`sort_order`) VALUES 
+					(NULL,'sub_enter_email_msg','Enter your email to subscribe','"Enter Email" message','"Enter Email" message',1,'',3,0),
+					(NULL,'sub_success_msg','Thank you for subscription!','Subscribe success message','Subscribe success message',1,'',3,0),
+					
+					(NULL,'soc_yt_enable_link','','Youtube','Youtube',1,'',18,0),
+					(NULL,'soc_yt_account','','Youtube','Youtube',1,'',18,0),
+					(NULL,'soc_yt_enable_subscribe','','Youtube','Youtube',1,'',18,0),
+					(NULL,'soc_yt_sub_layout','default','Youtube','Youtube',1,'',18,0),
+					(NULL,'soc_yt_sub_theme','default','Youtube','Youtube',1,'',18,0),
+					
+					(NULL,'soc_im_enable_link','','Instagram','Instagram',1,'',18,0),
+					(NULL,'soc_im_account','','Instagram','Instagram',1,'',18,0); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_004, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'meta_info' for key 'code' for query INSERT INTO `mav_csp_modules` ( id, code, active, type_id, params, has_tab, label, description, ex_plug_dir) 
+		  				VALUES (NULL, 'meta_info', 1, 1, '', 0, 'Meta Info', 'Meta Info', NULL); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_006, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'meta_title' for key 'code' for query INSERT INTO `mav_csp_options` (`id`,`code`,`value`,`label`,`description`,`htmltype_id`,`params`,`cat_id`,`sort_order`) VALUES 
+					(NULL,'meta_title','Site is under construction','Meta title','Meta title',1,'',3,0),
+					(NULL,'meta_description','','Meta description','Meta description',1,'',3,0),
+					(NULL,'meta_keywords','','Meta keywords','Meta keywords',1,'',3,0); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_006, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'promo_ready' for key 'code' for query INSERT INTO `mav_csp_modules` ( id, code, active, type_id, params, has_tab, label, description, ex_plug_dir) 
+		  				VALUES (NULL, 'promo_ready', 1, 1, '', 0, 'Promo Ready', 'Promo Ready', NULL); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_013, dbCsp::query
+[10-Sep-2013 18:23:53 UTC] WordPress database error Duplicate entry 'sub_checked_notify' for key 'code' for query INSERT INTO `mav_csp_options` (`id`,`code`,`value`,`label`,`description`,`htmltype_id`,`params`,`cat_id`,`sort_order`) VALUES 
+					(NULL,'sub_checked_notify','1','Subscribe is checked by default','Subscribe is checked by default',1,'',3,0); made by activate_plugin, do_action('activate_coming-soon-maintenance-mode-ready/csp.php'), call_user_func_array, utilsCsp::activatePlugin, installerCsp::init, installerDbUpdaterCsp::runUpdate, installerDbUpdaterCsp::update_017, dbCsp::query
+[10-Sep-2013 18:28:52 UTC] PHP Warning:  require(/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13
+[10-Sep-2013 18:28:52 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13
+[10-Sep-2013 18:29:15 UTC] PHP Warning:  require(/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13
+[10-Sep-2013 18:29:15 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13
+[10-Sep-2013 18:31:20 UTC] PHP Warning:  require(/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13
+[10-Sep-2013 18:31:20 UTC] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/undercwp/public_html/wp-content/themes/U35/air/base/lib/air.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/undercwp/public_html/wp-content/themes/U35/functions.php on line 13

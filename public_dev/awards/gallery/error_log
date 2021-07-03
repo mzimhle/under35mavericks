@@ -1,0 +1,1 @@
+[25-Mar-2015 07:49:08 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in awards/gallery/default.tpl line 108]: syntax error: unrecognized tag 'literal' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095

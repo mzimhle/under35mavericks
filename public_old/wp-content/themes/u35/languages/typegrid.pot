@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Typegrid\n"
+"POT-Creation-Date: 2013-03-11 09:53+0100\n"
+"PO-Revision-Date: 2013-03-11 09:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: WPBandit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11
+msgid "Something went wrong."
+msgstr ""
+
+#: ../404.php:12
+msgid "The page you are looking for could not be found."
+msgstr ""
+
+#: ../404.php:16 ../search.php:17
+msgid "Search"
+msgstr ""
+
+#: ../search.php:12
+msgid "No search results"
+msgstr ""
+
+#: ../search.php:13
+msgid "The good news is you can try again."
+msgstr ""
+
+#: ../searchform.php:3
+msgid "To search type and hit enter"
+msgstr ""
+
+#: ../sidebar.php:3 ../page-templates/child-menu-left.php:30
+#: ../page-templates/child-menu-right.php:30
+msgid "Expand Sidebar"
+msgstr ""
+
+#: ../sidebar.php:7 ../single-full-top.php:60 ../single-full.php:60
+#: ../single.php:50
+msgid "Previous story"
+msgstr ""
+
+#: ../sidebar.php:8 ../single-full-top.php:61 ../single-full.php:61
+#: ../single.php:51
+msgid "Next story"
+msgstr ""
+
+#: ../single-full-top.php:17 ../single-full.php:17 ../single.php:15
+msgid "by"
+msgstr ""
+
+#: ../single-full-top.php:19 ../single-full.php:19 ../single.php:17
+#: ../partials/loop.php:22
+msgid "at"
+msgstr ""
+
+#: ../single-full-top.php:36 ../single-full.php:36 ../single.php:26
+msgid "Pages:"
+msgstr ""
+
+#: ../single-full-top.php:44 ../single-full.php:44 ../single.php:34
+msgid "Tags:"
+msgstr ""
+
+#: ../page-templates/sitemap.php:25
+msgid "Pages"
+msgstr ""
+
+#: ../page-templates/sitemap.php:29
+msgid "All Articles"
+msgstr ""
+
+#: ../page-templates/sitemap.php:39
+msgid "Feeds"
+msgstr ""
+
+#: ../page-templates/sitemap.php:41
+msgid "Main RSS"
+msgstr ""
+
+#: ../page-templates/sitemap.php:42
+msgid "Comment Feed"
+msgstr ""
+
+#: ../page-templates/sitemap.php:44
+msgid "Categories"
+msgstr ""
+
+#: ../page-templates/sitemap.php:46
+msgid "Archives"
+msgstr ""
+
+#: ../partials/loop.php:37
+msgid "(more...)"
+msgstr ""
+
+#: ../partials/newsflash.php:59 ../widgets/widget-tabs.php:315
+msgid "Most Popular"
+msgstr ""
+
+#: ../partials/newsflash.php:61
+msgid "All time"
+msgstr ""
+
+#: ../partials/newsflash.php:62
+msgid "This month"
+msgstr ""
+
+#: ../partials/newsflash.php:63
+msgid "This week"
+msgstr ""
+
+#: ../partials/newsflash.php:64
+msgid "Last 24 hours"
+msgstr ""
+
+#: ../partials/newsflash.php:92
+msgid "Latest Stories"
+msgstr ""
+
+#: ../partials/newsflash.php:93
+msgid "What is new?"
+msgstr ""
+
+#: ../partials/newsflash.php:131 ../widgets/widget-tabs.php:316
+msgid "Comments"
+msgstr ""
+
+#: ../partials/newsflash.php:132
+msgid "Most Recent"
+msgstr ""
+
+#: ../partials/page-title.php:8
+msgid "Search results for:"
+msgstr ""
+
+#: ../partials/page-title.php:13
+msgid "Error 404."
+msgstr ""
+
+#: ../partials/page-title.php:13
+msgid "Oops!"
+msgstr ""
+
+#: ../partials/page-title.php:24
+msgid "Author:"
+msgstr ""
+
+#: ../partials/page-title.php:29
+msgid "Category:"
+msgstr ""
+
+#: ../partials/page-title.php:40
+msgid "Tagged:"
+msgstr ""
+
+#: ../partials/page-title.php:45
+msgid "Daily Archive:"
+msgstr ""
+
+#: ../partials/page-title.php:50
+msgid "Monthly Archive:"
+msgstr ""
+
+#: ../partials/page-title.php:55
+msgid "Yearly Archive:"
+msgstr ""
+
+#: ../partials/related-posts.php:4
+msgid "You may also like..."
+msgstr ""
+
+#: ../widgets/widget-tabs.php:314
+msgid "Recent Posts"
+msgstr ""
+
+#: ../widgets/widget-tabs.php:317
+msgid "Tags"
+msgstr ""
+
+#: ../widgets/widget-tabs.php:532
+msgid "on:"
+msgstr ""

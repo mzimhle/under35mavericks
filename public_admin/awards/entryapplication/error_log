@@ -1,0 +1,111 @@
+[01-Mar-2015 20:40:21 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_application::getAll() in /home/undercwp/public_admin/awards/entryapplication/default.php on line 48
+[01-Mar-2015 21:56:17 Africa/Johannesburg] PHP Warning:  require_once(class/applicationentity.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/entryapplication/financial.php on line 15
+[01-Mar-2015 21:56:17 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/applicationentity.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/entryapplication/financial.php on line 15
+[01-Mar-2015 21:58:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'applicationentity_name' in 'order clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationentity.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/entryapplication/financial.php(3 in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 22:08:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_html/library/classes/class/applicationentity.php(30): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_admin/awards/entryapplication/financial.php(91): class_applicationentity->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php on line 877
+[16-Apr-2015 20:25:44 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardquestion.awardsubsection_name' in 'field list'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationanswer.php(79): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/entryapplication/quest in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 20:30:20 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_CLASS, expecting T_STRING in /home/undercwp/public_html/library/classes/class/applicationanswer.php on line 15
+[16-Apr-2015 20:30:34 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_applicationanswer::getBySubSection() in /home/undercwp/public_html/library/classes/class/applicationanswer.php on line 111
+[16-Apr-2015 20:40:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/undercwp/public_html/library/classes/class/awardsection.php(86): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/undercwp/public_html/library/classes/class/applicationanswer.php(112): class_awardsection->getByYear(NULL)
+#5 /home/undercwp/public_admin/awards/entryapplication/question.php(29): class_applicationanswer->getAnswers('2015', '635652587667481')
+#6 {main}
+  th in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[16-Apr-2015 20:40:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardsubsection_deleted' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationanswer.php(106): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_html/library/classes/class/applicationanswe in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:19:27 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:19:32 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:19:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:19:58 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:20:11 Africa/Johannesburg] PHP Fatal error:  Class 'class_applicationcategory' not found in /home/undercwp/public_admin/awards/entryapplication/question.php on line 19
+[16-Apr-2015 22:20:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:20:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(80): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:21:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(79): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:21:12 Africa/Johannesburg] PHP Fatal error:  Call to a member function getByApplication() on a non-object in /home/undercwp/public_admin/awards/entryapplication/question.php on line 36
+[16-Apr-2015 22:21:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(79): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[16-Apr-2015 22:22:24 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and awardcategory_deleted = 0)' at line 3' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `applica...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `applica...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `applica...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/applicationcategory.php(79): Zend_Db_ in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

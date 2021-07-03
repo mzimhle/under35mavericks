@@ -1,0 +1,45 @@
+[15-Feb-2014 11:07:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Mar-2014 11:32:06 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'areatype_code' in where clause is ambiguous' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `a`.*, `...')
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `a`.*, `...')
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `a`.*, `...')
+#3 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(782): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/bizloung/public_html/library/classes/class/area.php(198): Zend_Db_Adapter_Abstract->fetchPairs(Object(Zend_Db_Select))
+#5 /home/bizloung/public_html/administration/participants/view/notify.php(48): class_a in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[08-Mar-2015 00:30:54 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "awards/galleries/default.tpl" in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:20 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[08-Mar-2015 02:01:21 Africa/Johannesburg] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/undercwp/public_admin/awards/galleries/image.php on line 189
+[31-Mar-2015 21:16:26 Africa/Johannesburg] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Permission denied in /home/undercwp/public_admin/awards/galleries/image.php on line 171
+[31-Mar-2015 21:16:26 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'File not writeable: /media/awards/galleries/6752376643/863617138476/min_863617138476.jpg' in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php:662
+Stack trace:
+#0 /home/undercwp/public_admin/awards/galleries/image.php(181): GdThumb->save('/media/awards/g...')
+#1 {main}
+  thrown in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php on line 662
+[31-Mar-2015 21:20:11 Africa/Johannesburg] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Permission denied in /home/undercwp/public_admin/awards/galleries/image.php on line 171
+[31-Mar-2015 21:20:11 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'File not writeable: /media/awards/galleries/6752376643/813351913162/min_813351913162.jpg' in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php:662
+Stack trace:
+#0 /home/undercwp/public_admin/awards/galleries/image.php(181): GdThumb->save('/media/awards/g...')
+#1 {main}
+  thrown in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php on line 662
+[31-Mar-2015 21:22:41 Africa/Johannesburg] PHP Warning:  mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Permission denied in /home/undercwp/public_admin/awards/galleries/image.php on line 171
+[31-Mar-2015 21:22:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'File not writeable: /media/awards/galleries/6752376643/799588557855/min_799588557855.jpg' in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php:662
+Stack trace:
+#0 /home/undercwp/public_admin/awards/galleries/image.php(181): GdThumb->save('/media/awards/g...')
+#1 {main}
+  thrown in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php on line 662
+[01-Apr-2015 17:00:28 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message '$cropWidth must be numeric' in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php:391
+Stack trace:
+#0 /home/undercwp/public_admin/awards/galleries/image.php(180): GdThumb->cropFromCenter(NULL)
+#1 {main}
+  thrown in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php on line 391
+[02-Apr-2015 07:15:29 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3531 bytes) in /home/undercwp/public_html/library/classes/phpThumb/GdThumb.inc.php on line 111

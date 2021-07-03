@@ -1,0 +1,117 @@
+[31-Jan-2015 08:22:56 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/years/view/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095
+[31-Jan-2015 08:29:08 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/resources/years/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095
+[24-Feb-2015 20:50:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_html/library/classes/class/category.php(31): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_admin/resources/category/details.php(64): class_category->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php on line 877
+[24-Feb-2015 20:50:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'category_url' in 'field list'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('INSERT INTO `ca...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'INSERT INTO `ca...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('INSERT INTO `ca...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `ca...', Array)
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('category', Array)
+#5 /home/undercwp/public_html/library/classes/class/category.php(31): Zend_Db_Table_Abstra in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[24-Feb-2015 20:54:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'year_code' in order clause is ambiguous' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `categor...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `categor...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `categor...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/category.php(58): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/resources/category/default.php(48): class_category->getAll in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[24-Feb-2015 22:12:06 Africa/Johannesburg] PHP Warning:  require_once(class/category.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/questions/default.php on line 14
+[24-Feb-2015 22:12:06 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/category.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/questions/default.php on line 14
+[24-Feb-2015 23:28:55 Africa/Johannesburg] PHP Warning:  require_once(class/category.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/questions/default.php on line 14
+[24-Feb-2015 23:28:55 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/category.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/questions/default.php on line 14
+[25-Feb-2015 00:00:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'undercwp_wp319.awardsection' doesn't exist' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardse...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardse...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardse...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardsection.php(71): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/section/default.php(48): class_awardsection-> in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[25-Feb-2015 00:01:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_html/library/classes/class/awardsection.php(31): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_admin/awards/section/details.php(64): class_awardsection->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php on line 877
+[25-Feb-2015 00:03:17 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/undercwp/public_html/library/classes/class/awardsection.php on line 55
+[25-Feb-2015 00:18:32 Africa/Johannesburg] PHP Warning:  require_once(class/image.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/section/subsection.php on line 15
+[25-Feb-2015 00:18:32 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/image.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/section/subsection.php on line 15
+[25-Feb-2015 00:22:42 Africa/Johannesburg] PHP Fatal error:  Cannot redeclare class_awardsection::pairs() in /home/undercwp/public_html/library/classes/class/awardsection.php on line 124
+[25-Feb-2015 00:22:56 Africa/Johannesburg] PHP Warning:  require_once(class/image.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/section/subsection.php on line 15
+[25-Feb-2015 00:22:56 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/image.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/section/subsection.php on line 15
+[25-Feb-2015 00:24:47 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "awardsection/view/awardsubsection.tpl" in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[26-Feb-2015 00:39:24 Africa/Johannesburg] PHP Fatal error:  Cannot redeclare class class_awardsubsection in /home/undercwp/public_html/library/classes/class/awardquestion.php on line 163
+[26-Feb-2015 23:27:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardquestion.awardsubsection_code' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardqu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardqu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardqu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardquestion.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/section/question.php(30) in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[26-Feb-2015 23:31:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardquestion.awardsubsection_code' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardqu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardqu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardqu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardquestion.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/section/question.php(30) in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[26-Feb-2015 23:31:56 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardquestion.awardsubsection_code' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardqu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardqu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardqu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardquestion.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/section/question.php(30) in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[26-Feb-2015 23:33:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardsubsection.year_code' in 'order clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardqu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardqu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardqu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardquestion.php(72): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/awards/section/question.php(30): class_a in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[27-Feb-2015 00:34:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_html/library/classes/class/awardquestion.php(30): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_admin/awards/section/question.php(97): class_awardquestion->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php on line 877
+[27-Feb-2015 07:26:10 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/undercwp/public_html/library/classes/class/awardsection.php(58): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/undercwp/public_html/library/classes/class/awardsection.php(29): class_awardsection->getLastIndex(NULL)
+#5 /home/undercwp/public_admin/awards/section/details.php(68): class_awardsection->insert(Array)
+#6 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[31-Mar-2015 00:03:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'item_code' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('UPDATE `awardsu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'UPDATE `awardsu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('UPDATE `awardsu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(604): Zend_Db_Adapter_Abstract->query('UPDATE `awardsu...', Array)
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1110): Zend_Db_Adapter_Abstract->update('awardsubsection', Array, Array)
+#5 /home/undercwp/public_html/library/classes/class/awardsubsection.php(47):  in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[31-Mar-2015 00:43:21 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardsubsection.awardsection_index' in 'where clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `awardsu...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `awardsu...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `awardsu...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/awardsubsection.php(156): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#5 /home/undercwp/public_html/library/classes/class/awardsu in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

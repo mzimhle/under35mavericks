@@ -1,0 +1,14 @@
+/*
+Style: White
+*/
+
+body,
+.newsflash { background: #fff; }
+
+.newsflash,
+.newsflash li.article:nth-child(2) .pad, 
+.newsflash li.article:nth-child(3) .pad { border-color: #f6f6f6; }
+
+.newsflash .overflow .fade { background-image: url(white/newsflash-fade.png); }
+
+.ads-header { background: #262626; }

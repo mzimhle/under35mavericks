@@ -1,0 +1,120 @@
+/* --------------------------------------------- Page Defualts --------------------------------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+img, div { behavior: url(iepngfix.htc) }
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+html {overflow-y: scroll;}
+
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+
+pre {
+	white-space: pre; /* CSS2 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+ 
+a:hover, a:active {outline: none;}
+
+small {font-size: 85%;}
+
+strong, th {font-weight: bold;}
+
+td, td img {vertical-align: top;} 
+
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+.clickable,
+label, 
+input[type=button], 
+input[type=submit], 
+button {cursor: pointer;}
+
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button {width: auto; overflow: visible;}
+ 
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover */
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+/* clear floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }  
+
+.chromeframe { width:90%; margin: 0.2em 0; background:#ffffff; z-index: 1000000; color: black; padding: 0.2em 5%; position:fixed; top: 0; left: 0; font: 14px/18px Arial, sans-serif; color: #7b7872 }
+.chromeframe a {font: 14px/18px Arial, sans-serif; color: #05989d; text-decoration: none}
+	.chromeframe a:hover {text-decoration: underline}
+/* --------------------------------------------- @Font-face Kits --------------------------------------------- */
+
+/* --------------------------------------------- Aries Trotters Styles --------------------------------------------- */
+body {width:100%; background:#2d2d2d url(../images/BG.jpg) top repeat-x}
+	
+  .Wrapper {width:100%; height: 300px; margin: 65px 0 0 0; padding: 10px 0; background:url(../images/pixel-Rpt.png); display: none}
+	.mainWrap {width: 680px; margin:0 auto; text-align: center; font-family:Arial, Helvetica, sans-serif; color: #525252; display: none}
+		.logo {width: 100%; height: 210px; margin: 10px 0 0 0}
+		.heading {width: 100%; height: 70px; font-size: 30px; font-weight:bold; text-transform:uppercase}
+			.otherColor {color:#ffffff}
+
+		.contact {width: 100%; height: 105px; margin: 34px 0 0 0; font-weight:bold}
+			.headingContact {font-size:16px; text-transform:uppercase}
+			.contactCopy {font-size:16; color:#ffffff}
+			.contactCopy a {font-size:16; color:#ffffff; text-decoration: none}
+				.contactCopy a:hover {text-decoration: underline}
+
+
+/* --------------------------------------------- Help Classes --------------------------------------------- */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+

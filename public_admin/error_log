@@ -1,0 +1,60 @@
+[08-Sep-2014 01:30:45 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'bizloung_test.administrator' doesn't exist' in /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#1 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_administrator))
+#5 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class in /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[08-Sep-2014 01:34:57 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Table 'bizloung_test.administrator' doesn't exist' in /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Adapter/Mysqli.php:204
+Stack trace:
+#0 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#1 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#2 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#3 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#4 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Select.php(78): Zend_Db_Table_Select->setTable(Object(class_administrator))
+#5 /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Table/Abstract.php(1006): Zend_Db_Table_Select->__construct(Object(class in /home/bizloung/public_dev/bizlounge/library/classes/Zend/Db/Adapter/Mysqli.php on line 204
+[25-Sep-2014 21:43:52 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'root'@'localhost' (using password: NO)' in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#3 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#5 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#6 /home/willnett/p in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[25-Sep-2014 21:48:42 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'root'@'localhost' (using password: NO)' in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#3 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#5 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#6 /home/willnett/p in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[07-Feb-2015 02:24:31 Africa/Johannesburg] PHP Warning:  require_once(Zend/Db.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:24:31 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Db.php' (include_path='/home/undercwp/public_admin/:/home/undercwp/public_admin/library/classes/') in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:31:37 Africa/Johannesburg] PHP Warning:  require_once(Zend/Db.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:31:37 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Db.php' (include_path='/home/undercwp/public_admin/:/home/undercwp/public_admin/library/classes/') in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:31:45 Africa/Johannesburg] PHP Warning:  require_once(Zend/Db.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:31:45 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'Zend/Db.php' (include_path='/home/undercwp/public_admin/:/home/undercwp/public_admin/library/classes/') in /home/undercwp/public_admin/config/database.php on line 7
+[07-Feb-2015 02:39:40 Africa/Johannesburg] PHP Warning:  require_once(administration/includes/auth.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/default.php on line 27
+[07-Feb-2015 02:39:40 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'administration/includes/auth.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/default.php on line 27
+[07-Feb-2015 03:13:23 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willnett_mave'@'localhost' (using password: YES)' in /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#5 /home/undercwp/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#6 /home/undercwp/public_html/library/classes/Zend/Db/Table/Selec in /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333
+[07-Feb-2015 03:14:59 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Mysqli_Exception' with message 'Access denied for user 'willnett_mave'@'localhost' (using password: YES)' in /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php:333
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(304): Zend_Db_Adapter_Mysqli->_connect()
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(194): Zend_Db_Adapter_Abstract->getConnection()
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(824): Zend_Db_Adapter_Mysqli->describeTable('administrator', NULL)
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(863): Zend_Db_Table_Abstract->_setupMetadata()
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(970): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#5 /home/undercwp/public_html/library/classes/Zend/Db/Table/Select.php(100): Zend_Db_Table_Abstract->info()
+#6 /home/undercwp/public_html/library/classes/Zend/Db/Table/Selec in /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php on line 333

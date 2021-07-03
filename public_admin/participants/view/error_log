@@ -1,0 +1,75 @@
+[15-Jul-2014 13:21:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/bizloung/public_html/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/bizloung/public_html/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/bizloung/public_html/library/classes/class/participant.php(135): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#4 /home/bizloung/public_html/library/classes/class/participant.php(63): class_participant->getByCode(NULL)
+#5 /home/bizloung/public_html/administration/participants/view/details.php(98): class_participant->update(Array, 'participant_cod...')
+#6 {main}
+  thrown in /home/bizloung/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[25-Sep-2014 22:05:27 Africa/Johannesburg] PHP Fatal error:  Call to undefined method class_participant::validateCellphone() in /home/willnett/public_dev/maverick/administration/participants/view/details.php on line 77
+[25-Sep-2014 22:37:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'participant_code' in where clause is ambiguous' in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/willnett/public_dev/maverick/library/classes/Zend/Db/Adapter/Abstract.php(725): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/willnett/public_dev/maverick/library/classes/class/participantlogin.php(251): Zend_Db_Adapter_Abstract->fetchRow(Object(Zend_Db_Select))
+#5 /home/willnett/public_ in /home/willnett/public_dev/maverick/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[25-Feb-2015 00:10:33 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'participant.areapost_code' in 'on clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_part in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[25-Feb-2015 00:11:02 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'participant.areapost_code' in 'on clause'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_part in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 22:39:49 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'undercwp_wp319.participantlogin' doesn't exist' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_particip in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 22:40:16 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'undercwp_wp319.participantlogin' doesn't exist' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_particip in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 22:40:34 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'undercwp_wp319.participantlogin' doesn't exist' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(60): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_particip in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 23:08:04 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Table 'undercwp_wp319.participantlogin' doesn't exist' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `partici...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `partici...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `partici...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/participant.php(158): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/participants/view/default.php(48): class_partici in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[01-Mar-2015 23:36:55 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'participant_social_twitter' in 'field list'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('INSERT INTO `pa...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'INSERT INTO `pa...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('INSERT INTO `pa...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `pa...', Array)
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('participant', Array)
+#5 /home/undercwp/public_html/library/classes/class/participant.php(36):  in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77

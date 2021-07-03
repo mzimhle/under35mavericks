@@ -1,0 +1,2 @@
+[26-Mar-2015 21:14:40 Africa/Johannesburg] PHP Fatal error:  Call to a member function validateEmail() on a non-object in /home/undercwp/public_dev/awards/nomination_form/default.php on line 32
+[26-Mar-2015 22:52:48 Africa/Johannesburg] PHP Fatal error:  Call to a member function validateEmail() on a non-object in /home/undercwp/public_dev/awards/nomination_form/default.php on line 32

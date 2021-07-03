@@ -1,0 +1,29 @@
+[31-Jan-2015 08:22:56 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/years/view/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095
+[31-Jan-2015 08:29:08 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "administration/resources/years/default.tpl" in /home/willnett/public_dev/maverick/library/classes/smarty/Smarty.class.php on line 1095
+[24-Feb-2015 20:50:37 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_html/library/classes/class/category.php(31): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_admin/resources/category/details.php(64): class_category->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php on line 877
+[24-Feb-2015 20:50:50 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'category_url' in 'field list'' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('INSERT INTO `ca...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'INSERT INTO `ca...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('INSERT INTO `ca...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(546): Zend_Db_Adapter_Abstract->query('INSERT INTO `ca...', Array)
+#4 /home/undercwp/public_html/library/classes/Zend/Db/Table/Abstract.php(1053): Zend_Db_Adapter_Abstract->insert('category', Array)
+#5 /home/undercwp/public_html/library/classes/class/category.php(31): Zend_Db_Table_Abstra in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[24-Feb-2015 20:54:43 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Column 'year_code' in order clause is ambiguous' in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_html/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT `categor...')
+#1 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT `categor...')
+#2 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT `categor...')
+#3 /home/undercwp/public_html/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_html/library/classes/class/category.php(58): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_admin/resources/category/default.php(48): class_category->getAll in /home/undercwp/public_html/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[24-Feb-2015 21:05:13 Africa/Johannesburg] PHP Warning:  require_once(class/category.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/category/default.php on line 14
+[24-Feb-2015 21:05:13 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/category.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/category/default.php on line 14
+[24-Feb-2015 21:06:47 Africa/Johannesburg] PHP Warning:  require_once(class/awardscategory.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/undercwp/public_admin/awards/category/default.php on line 14
+[24-Feb-2015 21:06:47 Africa/Johannesburg] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'class/awardscategory.php' (include_path='/home/undercwp/public_admin:/home/undercwp/public_html/library/classes:/home/undercwp/public_html') in /home/undercwp/public_admin/awards/category/default.php on line 14

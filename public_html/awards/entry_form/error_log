@@ -1,0 +1,70 @@
+[09-Mar-2015 21:28:12 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in entry_form/default.tpl line 867]: syntax error: unrecognized tag 'new' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[09-Mar-2015 22:20:07 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in entry_form/default.tpl line 762]: syntax error: unrecognized tag 'new' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[14-Mar-2015 13:53:39 Africa/Johannesburg] PHP Fatal error:  Class 'category' not found in /home/undercwp/public_dev/entry_form/default.php on line 12
+[14-Mar-2015 13:54:17 Africa/Johannesburg] PHP Fatal error:  Class 'awardcategory' not found in /home/undercwp/public_dev/entry_form/default.php on line 12
+[25-Mar-2015 07:34:01 Africa/Johannesburg] PHP Warning:  Smarty error: unable to read resource: "entry_form/default.tpl" in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  Smarty error: file:includes/css.php is not readable in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/undercwp/public_dev/:/home/undercwp/public_dev/library/classes/') in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  Smarty error: file:includes/menu.php is not readable in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/undercwp/public_dev/:/home/undercwp/public_dev/library/classes/') in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  Smarty error: file:includes/footer.php is not readable in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[25-Mar-2015 07:34:23 Africa/Johannesburg] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='/home/undercwp/public_dev/:/home/undercwp/public_dev/library/classes/') in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1925
+[29-Mar-2015 10:51:56 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in awards/entry_form/default.tpl line 784]: syntax error: unrecognized tag 'literal' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_dev/library/classes/smarty/Smarty.class.php on line 1095
+[29-Mar-2015 16:54:41 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/undercwp/public_dev/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/undercwp/public_dev/library/classes/class/awardquestion.php(86): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/undercwp/public_dev/awards/entry_form/default.php(20): class_awardquestion->getQuestions()
+#5 {main}
+  thrown in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[29-Mar-2015 16:55:00 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '(', expecting ')' in /home/undercwp/public_dev/library/classes/class/awardquestion.php on line 77
+[29-Mar-2015 16:56:32 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/undercwp/public_dev/library/classes/class/awardquestion.php on line 90
+[29-Mar-2015 16:56:53 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli prepare error: Unknown column 'awardsubsection.awardsubsection' in 'order clause'' in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php:77
+Stack trace:
+#0 /home/undercwp/public_dev/library/classes/Zend/Db/Statement.php(115): Zend_Db_Statement_Mysqli->_prepare('SELECT max(awar...')
+#1 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Mysqli.php(381): Zend_Db_Statement->__construct(Object(Zend_Db_Adapter_Mysqli), 'SELECT max(awar...')
+#2 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(467): Zend_Db_Adapter_Mysqli->prepare('SELECT max(awar...')
+#3 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#4 /home/undercwp/public_dev/library/classes/class/awardquestion.php(87): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#5 /home/undercwp/public_dev/awards/entry_form/default.php(20): class_a in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php on line 77
+[29-Mar-2015 19:04:19 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Statement_Mysqli_Exception' with message 'Mysqli statement execute error : No data supplied for parameters in prepared statement' in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php:214
+Stack trace:
+#0 /home/undercwp/public_dev/library/classes/Zend/Db/Statement.php(300): Zend_Db_Statement_Mysqli->_execute(Array)
+#1 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(468): Zend_Db_Statement->execute(Array)
+#2 /home/undercwp/public_dev/library/classes/Zend/Db/Adapter/Abstract.php(706): Zend_Db_Adapter_Abstract->query(Object(Zend_Db_Select), Array)
+#3 /home/undercwp/public_dev/library/classes/class/awardsubsection.php(86): Zend_Db_Adapter_Abstract->fetchAll(Object(Zend_Db_Select))
+#4 /home/undercwp/public_dev/library/classes/class/awardquestion.php(94): class_awardsubsection->getBySection(NULL)
+#5 /home/undercwp/public_dev/awards/entry_form/default.php(20): class_awardquestion->getQuestions()
+#6 {main}
+  thrown in /home/undercwp/public_dev/library/classes/Zend/Db/Statement/Mysqli.php on line 214
+[29-Mar-2015 23:58:37 Africa/Johannesburg] PHP Fatal error:  Call to a member function validateEmail() on a non-object in /home/undercwp/public_dev/awards/entry_form/default.php on line 53
+[30-Mar-2015 01:23:14 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 152
+[30-Mar-2015 01:24:06 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 152
+[30-Mar-2015 01:29:58 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 21 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 152
+[30-Mar-2015 01:32:48 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 71 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 147
+[30-Mar-2015 01:33:34 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 5242880 bytes exhausted (tried to allocate 32 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 146
+[30-Mar-2015 01:33:45 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 16777216 bytes exhausted (tried to allocate 1048576 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 149
+[30-Mar-2015 01:33:56 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 20971520 bytes exhausted (tried to allocate 71 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 164
+[30-Mar-2015 01:34:07 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 31457280 bytes exhausted (tried to allocate 71 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 154
+[30-Mar-2015 01:34:53 Africa/Johannesburg] PHP Fatal error:  Allowed memory size of 31457280 bytes exhausted (tried to allocate 71 bytes) in /home/undercwp/public_dev/awards/entry_form/default.php on line 149
+[30-Mar-2015 01:35:21 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/undercwp/public_dev/awards/entry_form/default.php on line 146
+[30-Mar-2015 01:48:03 Africa/Johannesburg] PHP Fatal error:  Uncaught exception 'Zend_Db_Table_Exception' with message 'A table must have a primary key, but none was found' in /home/undercwp/public_dev/library/classes/Zend/Db/Table/Abstract.php:877
+Stack trace:
+#0 /home/undercwp/public_dev/library/classes/Zend/Db/Table/Abstract.php(1021): Zend_Db_Table_Abstract->_setupPrimaryKey()
+#1 /home/undercwp/public_dev/library/classes/class/applicationcategory.php(30): Zend_Db_Table_Abstract->insert(Array)
+#2 /home/undercwp/public_dev/awards/entry_form/default.php(425): class_applicationcategory->insert(Array)
+#3 {main}
+  thrown in /home/undercwp/public_dev/library/classes/Zend/Db/Table/Abstract.php on line 877
+[30-Mar-2015 01:56:56 Africa/Johannesburg] PHP Catchable fatal error:  Argument 1 passed to class_applicationanswer::insert() must be an array, none given, called in /home/undercwp/public_dev/awards/entry_form/default.php on line 453 and defined in /home/undercwp/public_dev/library/classes/class/applicationanswer.php on line 24
+[30-Mar-2015 23:34:27 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in awards/entry_form/default.tpl line 499]: syntax error: unrecognized tag 'var' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[30-Mar-2015 23:34:56 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in awards/entry_form/default.tpl line 499]: syntax error: unrecognized tag 'var' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[30-Mar-2015 23:35:59 Africa/Johannesburg] PHP Fatal error:  Smarty error: [in awards/entry_form/default.tpl line 499]: syntax error: unrecognized tag 'var' (Smarty_Compiler.class.php, line 590) in /home/undercwp/public_html/library/classes/smarty/Smarty.class.php on line 1095
+[16-Apr-2015 20:08:09 Africa/Johannesburg] PHP Parse error:  syntax error, unexpected '{' in /home/undercwp/public_html/awards/entry_form/default.php on line 160
